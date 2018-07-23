@@ -1,0 +1,63 @@
+    1  echo "World"
+    2  pwd
+    3  git
+    4  git clone https://github.com/yoursharsha/webtest.git
+    5  pwd
+    6  ls -la
+    7  cd webtest
+    8  ls -la
+    9  git status
+   10  git add
+   11  git add *
+   12  pwd
+   13  git status
+   14  git commit -m "Added Index.html"
+   15  git status
+   16  git log
+   17  git diff
+   18  git push 
+   19  git branch
+   20  git branch -v
+   21  git branch test
+   22  git branch -v
+   23  git checkout test
+   24  git branch -v
+   25  pwd
+   26  ls -la
+   27  git add *
+   28  git commit -m "Updated Index.html file"
+   29  git branch -v
+   30  git checkout master
+   31  git merge test
+   32  git branch -v
+   33  git checkout test
+   34  pwd
+   35  git clone https://github.com/yoursharsha/webtest
+   36  pwd
+   37  cd webtest
+   38  pwd
+   39  git branch -v
+   40  cat index.html
+   41  git add *
+   42  git commit -m "added a line test branch"
+   43  git checkout master
+   44  git add *
+   45  git clone https://github.com/yoursharsha/webtest
+   46  cd webtest
+   47  git branch -v'
+
+
+
+
+   48  git branch -v
+   49  git add *
+   50  git commit -m "added a line in master"
+   51  git branch -v
+   52  git merge test
+   53  gitadd *
+   54  git add *
+   55  git commit -m "updating master"
+   56  git merge test
+   57  git branch -v
+   58  git remote -v
+   59  history > commands.txt
