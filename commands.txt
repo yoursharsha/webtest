@@ -45,19 +45,120 @@
    45  git clone https://github.com/yoursharsha/webtest
    46  cd webtest
    47  git branch -v'
-
-
-
-
    48  git branch -v
    49  git add *
    50  git commit -m "added a line in master"
    51  git branch -v
    52  git merge test
-   53  gitadd *
-   54  git add *
-   55  git commit -m "updating master"
-   56  git merge test
-   57  git branch -v
-   58  git remote -v
-   59  history > commands.txt
+   53  git commit -m "added line in master"
+   54  gitadd *
+   55  git add *
+   56  git commit -m "updating master"
+   57  git merge test
+   58  git branch -v
+   59  git remote -v
+   60  history > commands.txt
+   61  git push
+   62  git add *
+   63  git commit -m "local change"
+   64  git push
+   65  git pull
+   66  git add *
+   67  git commit -m "solved the conflict with remote"
+   68  git push
+   69  git pull origin testing
+   70  git branch -v
+   71  git branch -v --all
+   72  git push --set-upstream origin testing
+   73  git branch -v
+   74  git checkout test
+   75  git push --set-upstream origin testing
+   76  git push --set-upstream origin test
+   77  cd webtest
+   78  git branch -v
+   79  git push --set-upstream origin test:testing
+   80  git pull --set-upstream origin test:testing
+   81  git pull --set-upstream origintesting
+   82  git pull --set-upstream origin testing
+   83  git pull --set-upstream testing
+   84  git branch --set-upstream origin test:testing 
+   85  git branch --set-upstream-to origin test:testing 
+   86  git branch --set-upstream-to origin testing 
+   87  git branch --set-upstream-to origin master:testing
+   88  git branch --set-upstream origin test:testing
+   89  git pull
+   90  git branch --set-upstream origin test:testing
+   91  git branch --set-upstream origin master:testing
+   92  git pull
+   93  git branch --track origin master:testing
+   94  git branch --track origin test:testing
+   95  git getch
+   96  git fetch
+   97  git merge
+   98  git stage *
+   99  git commit -m "merging with remote branches"
+  100  git push
+  101  git pull
+  102  git pull test testing
+  103  git pull origin/ test testing
+  104  git pull origin/test testing
+  105  git push --set-upstream origin test:testing
+  106  git merge test
+  107  git merge origin:testing test
+  108  git merge origin:testing
+  109  git branch -v
+  110  git push
+  111  git push --set-upstream origin testing:test
+  112  git branch --track origin test:testing
+  113  git pull
+  114  git branch --set-upstream origin test:testing
+  115  git pull
+  116  git branch --set-upstream-to=origin test:testing
+  117  sudo
+  118  uname
+  119  sudo yum -y install java-1.8.0-openjdk.x86_64
+  120  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+  121  sudo  rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+  122  sudo yum install jenkins
+  123  java -version
+  124  sudo yum remove-1.7.0
+  125  sudo yum remove java 1.7.0
+  126  java -version
+  127   sudo systemctl start jenkins
+  128  rpm -qa | grep -i systemd
+  129   sudo systemctl start jenkins
+  130  sudo servive jenkins start
+  131  sudo service jenkins start
+  132  sudo service enable jenkins
+  133  sudo chkconfig jenkins on
+  134  cat /var/lib/jenkins/secrets/initialAdminPassword
+  135  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  136  wich git
+  137  which git
+  138  which bash
+  139  which ssh
+  140  sudo
+  141  sdo -u
+  142  sudo -u
+  143  uname
+  144  which user
+  145  whoami
+  146  sudo 
+  147  sudo -i
+  148  whoami
+  149  git pull origin testing
+  150  git commit -m "testing remote merge again"
+  151  git pull origin testing
+  152  git push --set-upstream origin testing:test
+  153  git push --set origin testing:test
+  154  git push  origin testing:test
+  155  git pull origin testing
+  156  git add *
+  157  git commit -m "commit it"
+  158  git pull origin testing
+  159  git push --set-upstream origin test:testing
+  160  git add *
+  161  git commit -m "resolved commit with remote"
+  162  git push --set-upstream origin test:testing
+  163  history
+  164  history > commands.txt
